@@ -63,7 +63,7 @@ class Banco {
                 valorPorCuota = total / 48;
                 break;
         }
-        return leyenda = "El total del prestamo a pagar  sera de: $" + parseInt(total) + "\n El valor por cuota sera de: $" + parseInt(valorPorCuota)
+        return leyenda = "El total del prestamo a pagar  sera de: $" + total.toFixed(2) + "\n El valor por cuota sera de: $" + valorPorCuota.toFixed(2)
 
     }
 
